@@ -1,0 +1,26 @@
+{
+  "name": "taipei-steak-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "ava ./schema/__test__",
+    "start": "babel-node server.js"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^0.4.14",
+    "koa": "^2.0.0-alpha.3",
+    "rethinkdbdash": "^2.2.15"
+  },
+  "devDependencies": {
+    "ava": "git+https://github.com/sindresorhus/ava.git#master",
+    "babel-core": "^6.3.26",
+    "babel-preset-es2015-node5": "^1.1.1",
+    "babel-preset-stage-0": "^6.3.13"
+  }
+}
